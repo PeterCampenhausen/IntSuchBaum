@@ -89,8 +89,8 @@ public class IntSuchbaum {
     }
 
     public int hoehe(){
-        if(wurzel.links == null & wurzel.rechts == null){
-            return 1;
+        if(isEmpty()){
+            return 0;
         }else {
             return hoehe(wurzel);
         }
