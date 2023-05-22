@@ -92,7 +92,7 @@ public class IntSuchbaum {
         if(wurzel.links == null & wurzel.rechts == null){
             return 1;
         }else {
-            return hoehe(wurzel) - 1;
+            return hoehe(wurzel);
         }
     }
 

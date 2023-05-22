@@ -58,7 +58,7 @@ class IntSuchbaumTest {
         baum.insert (1);
         baum.insert (7);
         baum.insert(8);
-        assertEquals(3, baum.hoehe());
+        assertEquals(4, baum.hoehe());
     }
 
     @Test
